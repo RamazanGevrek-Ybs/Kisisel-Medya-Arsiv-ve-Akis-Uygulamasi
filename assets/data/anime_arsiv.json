@@ -1,0 +1,26 @@
+{
+    "animeler": [
+        {
+            "baslik": "Test Aksiyon Animesi 01",
+            "bolumler": [
+                {
+                    "bolumNo": 1,
+                    "driveId": "test_drive_id_001"
+                },
+                {
+                    "bolumNo": 2,
+                    "driveId": "test_drive_id_002"
+                }
+            ]
+        },
+        {
+            "baslik": "Test Dram Animesi 02",
+            "bolumler": [
+                {
+                    "bolumNo": 1,
+                    "driveId": "test_drive_id_003"
+                }
+            ]
+        }
+    ]
+}

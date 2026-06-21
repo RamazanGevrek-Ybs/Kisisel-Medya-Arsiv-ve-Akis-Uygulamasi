@@ -1,0 +1,51 @@
+name: manga_projesi
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  video_player: ^2.8.6
+  chewie: ^1.8.1
+  webview_flutter: ^4.8.0
+
+  home_widget: ^0.9.1
+
+  cupertino_icons: ^1.0.8 
+  google_fonts: ^8.0.2 
+  
+  # İnternetten veri taşıyacak kuryemiz
+  http: ^1.6.0
+  html: ^0.15.4
+  shared_preferences: ^2.5.5
+  cached_network_image: ^3.4.1
+  visibility_detector: ^0.4.0+2
+  flutter_cache_manager: ^3.4.1
+  path_provider: ^2.1.5
+  file_picker: ^11.0.2
+  syncfusion_flutter_pdfviewer: ^33.1.49
+  archive: ^3.3.9
+  epub_view: ^3.2.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.11.0
+
+# KRAL: İkon ayarlarımız burada (Ana dizin hizasında olmalı)
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/appicon.png"
+
+flutter:
+  uses-material-design: true
+
+  # İŞTE LOGONUN VE GÖRSELLERİN GİRECEĞİ YER (Hizalama çok kritik!)
+  assets:
+    - assets/images/
+    - assets/data/

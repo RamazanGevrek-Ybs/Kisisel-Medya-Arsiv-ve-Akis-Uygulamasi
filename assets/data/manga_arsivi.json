@@ -1,0 +1,17 @@
+[
+    {
+        "manga_adi": "Test Manga Serisi 01",
+        "klasor_id": "test_klasor_id_001",
+        "toplam_bolum": 2,
+        "bolumler": [
+            {
+                "bolum_adi": "Bölüm 1 - Başlangıç.cbz",
+                "drive_id": "test_drive_id_004"
+            },
+            {
+                "bolum_adi": "Bölüm 2 - Gelişme.cbz",
+                "drive_id": "test_drive_id_005"
+            }
+        ]
+    }
+]
